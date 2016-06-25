@@ -1,0 +1,13 @@
+[main]
+type = STRINGS
+host = https://www.transifex.com
+
+[edx-mobile-apps.ios-app-localizable-strings]
+file_filter = Source/<lang>.proj/Localizable.strings
+source_file = Source/en.lproj/Localizable.strings
+source_lang = en
+
+[edx-mobile-apps.ios-app-info-strings]
+file_filter = Source/<lang>.proj/InfoPlist.strings
+source_file = Source/en.lproj/InfoPlist.strings
+source_lang = en
